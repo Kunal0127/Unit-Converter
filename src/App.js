@@ -8,7 +8,7 @@ function BoilingVerdict(props) {
   }
   return <p>The water would not boil.</p>;
 }
-//----------------------------------------------
+//------------------------------------------------
 function toCelsius(fahrenheit) {
   return ((fahrenheit - 32) * 5) / 9;
 }
@@ -16,7 +16,7 @@ function toCelsius(fahrenheit) {
 function toFahrenheit(celsius) {
   return (celsius * 9) / 5 + 32;
 }
-//------------------------------------------------
+//-------------------------------------------------
 function tryConvert(temperature, convert) {
   const input = parseFloat(temperature);
   if (Number.isNaN(input)) {
